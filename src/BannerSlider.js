@@ -26,11 +26,10 @@ const BannerSlider = () =>{
     return(
         <>
             <div className="slideshow-container">
-                <img className="fade" src={`http://localhost:3000/banner_1.png`} style={{width:'100%' ,display:'block'}} />
-                <img className="fade" src={`http://localhost:3000/banner_2.png`} style={{width:'100%' , display:'none'}} />
-                <img className="fade" src={`http://localhost:3000/banner_3.png`} style={{width:'100%' , display:'none'}} />
+                <img className="fade" src={`http://localhost:3000/banner_1.png`} style={{width:'100%' ,display:'block', borderRadius:'15%'}} />
+                <img className="fade" src={`http://localhost:3000/banner_2.png`} style={{width:'100%' , display:'none', borderRadius:'15%'}} />
+                <img className="fade" src={`http://localhost:3000/banner_3.png`} style={{width:'100%' , display:'none', borderRadius:'15%'}} />
             </div>
-            <br />
             <div style={{textAlign:'center'}}>
                 {
                     bannerPage.map((e,i)=>{

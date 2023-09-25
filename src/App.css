@@ -30,14 +30,14 @@
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: rgb(255,130,195);
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active {
-  background-color: #717171;
+  background-color: rgb(205,48,105);
 }
 
 /* Fading animation */
@@ -57,14 +57,25 @@
 }
 
 .item{
-  margin-left : 4%;
   width : 92%;
   background-color: #ffffff;
-  border-radius: 5%
+  border-radius: 5%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.even {
+  margin-left: 8%;
+  margin-right: 1%;
+
+}
+
+.odd{
+  margin-left: 1%;
+  margin-right: 8%;
 }
 
 label{
-  font-size: 20px;
+  font-size: 23px;
   font-weight: bold;
   color:#333333;
   width:100%;
@@ -74,17 +85,26 @@ label{
 .basket{
   float: right;
   border-radius: 50%;
-  margin-right: 5% 
+  margin-right: 10%;
+  height: 62px;
+  width:62px;
+  background-color: rgb(205,48,105) !important;
 }
+
 
 .price{
   float: left;
-  color: #ff5555;
+  color: rgb(205,48,105);
   font-size: 25px;
-  font-weight: bold;
-  margin-left: 5%;
+  margin-left: 10%;
+  margin-top: 13px;
 }
 
+label{
+  font-family: 'FCIconicRounded';
+  color:#aaaaaa;
+  font-weight:100;
+}
 
 body{
   padding: 0% 20% 0% 20%;
